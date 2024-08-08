@@ -1,0 +1,8 @@
+{
+  "name": "Pop.Plugin.BehaviorDesigner",
+  "references": [
+  ],
+  "precompiledReferences": [
+    "BehaviorDesigner.Runtime.dll"
+  ]
+}

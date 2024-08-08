@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1802701863578393157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4271131498824239132, guid: 94113e6e0326a494daa8adc578b15094,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536591527809118032, guid: 94113e6e0326a494daa8adc578b15094,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536591527809118032, guid: 94113e6e0326a494daa8adc578b15094,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536591527809118032, guid: 94113e6e0326a494daa8adc578b15094,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536591527809118032, guid: 94113e6e0326a494daa8adc578b15094,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536591527809118033, guid: 94113e6e0326a494daa8adc578b15094,
+        type: 3}
+      propertyPath: m_Name
+      value: Hero_Dimoo_Zodiac_Cancer_Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94113e6e0326a494daa8adc578b15094, type: 3}
+--- !u!4 &126849682696464104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1785346120784297133, guid: 94113e6e0326a494daa8adc578b15094,
+    type: 3}
+  m_PrefabInstance: {fileID: 1802701863578393157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2878167666615235860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4536591527809118033, guid: 94113e6e0326a494daa8adc578b15094,
+    type: 3}
+  m_PrefabInstance: {fileID: 1802701863578393157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7340254987060463738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878167666615235860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b72ac35e1db4424683f25cc1a695800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roleId: 41002
+  actions:
+  - type: 2
+    forwardDelay: 0.5
+    isRepeat: 0
+    animationName: FuTou_ChengGong
+    effects:
+    - type: 0
+      effect: {fileID: 1343797990666780842, guid: b4d7547697838d140907e4c49b5ee9f1,
+        type: 3}
+      target: {fileID: 6151701662076506969}
+      delayTime: 0
+      lifeTime: 2
+      position: {x: 0, y: 0, z: 0}
+      rotate: {x: 0, y: 0, z: 0}
+      audio: 0
+      targetType: 0
+    - type: 2
+      effect: {fileID: 0}
+      target: {fileID: 0}
+      delayTime: 0.5
+      lifeTime: 2
+      position: {x: 0, y: 0, z: 0}
+      rotate: {x: 0, y: 0, z: 0}
+      audio: 0
+      targetType: 0
+    - type: 1
+      effect: {fileID: 0}
+      target: {fileID: 0}
+      delayTime: 0
+      lifeTime: 2
+      position: {x: 0, y: 0, z: 0}
+      rotate: {x: 0, y: 0, z: 0}
+      audio: 30003166
+      targetType: 0
+    duration: 0.8
+  - type: 6
+    forwardDelay: 0.8
+    isRepeat: 0
+    animationName: BoZhong
+    effects:
+    - type: 0
+      effect: {fileID: 3836220329441693712, guid: 67cb5392b93b8cb479b79dbb8910e7f0,
+        type: 3}
+      target: {fileID: 874066568679547920}
+      delayTime: 0
+      lifeTime: 2
+      position: {x: 0, y: 0, z: 0}
+      rotate: {x: 0, y: 0, z: 0}
+      audio: 0
+      targetType: 0
+    duration: 1
+  animator: {fileID: 269952941115164963}
+--- !u!1001 &2176084661580992262
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 126849682696464104}
+    m_Modifications:
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734211467168702043, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_Name
+      value: Hero_Dimoo_Zodiac_Cancer_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129096229157324325, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 0efa3a92426099744af3dd57d641fc0e,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+--- !u!95 &269952941115164963 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2129096229157324325, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2176084661580992262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &874066568679547920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1302190729380391702, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2176084661580992262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6151701662076506969 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5434786375452204127, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2176084661580992262}
+  m_PrefabAsset: {fileID: 0}

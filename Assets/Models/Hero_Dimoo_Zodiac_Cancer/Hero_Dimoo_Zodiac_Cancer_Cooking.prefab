@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &758457388691031244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1071387372, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+      propertyPath: serializeData2.selectionData.maxConnectionDistance
+      value: 0.06382675
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730529972535314249, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734211467168702043, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_Name
+      value: Hero_Dimoo_Zodiac_Cancer_Cooking
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129096229157324325, guid: 26ad0267fd7c8104cb6d2c5a2257904a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 113738b4d19fbc64384624ccc2a9a408,
+        type: 2}
+    m_RemovedComponents:
+    - {fileID: 7653167866119490633, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+    - {fileID: 3522726137582131259, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+    - {fileID: 322410569424512340, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+    - {fileID: 9082425441119717143, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+    - {fileID: 2045873284663069794, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+    - {fileID: 4749585147974207385, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 26ad0267fd7c8104cb6d2c5a2257904a, type: 3}
